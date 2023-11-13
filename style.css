@@ -63,12 +63,14 @@ body.contact-us {
 /* Default styles for all screens */
 body {
     font-size: 16px;
+    background-size: contain;
 }
 
 /* Styles for screens with a maximum width of 768px */
 @media screen and (max-width: 768px) {
     body {
         font-size: 12px;
+        background-size: contain;
     }
 }
 
@@ -76,6 +78,7 @@ body {
 @media screen and (max-width: 480px) {
     body {
         font-size: 10px;
+        background-size: contain;
     }
 }
 ul {
